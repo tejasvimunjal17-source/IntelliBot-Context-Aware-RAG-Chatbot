@@ -1,0 +1,30 @@
+# Secrets - NEVER upload these
+.env
+*.env
+!.env.example
+secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated data (recreated automatically)
+chroma_db/
+.chroma/
+vector_store/
+uploads_tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Packaging output
+*.zip

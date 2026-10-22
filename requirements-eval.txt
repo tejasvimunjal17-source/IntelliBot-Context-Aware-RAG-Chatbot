@@ -1,0 +1,5 @@
+# OPTIONAL: only needed to produce the RAGAS scores (python scripts/run_evaluation.py --mode full).
+# Heavy install; also needs an OpenAI API key and network access (RAGAS uses OpenAI as the judge).
+# The version range was NOT install-tested (the build environment had no internet).
+-r requirements.txt
+ragas>=0.2,<0.4

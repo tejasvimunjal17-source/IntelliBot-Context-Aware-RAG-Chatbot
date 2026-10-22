@@ -1,0 +1,4 @@
+# Only needed for running tests and regenerating the sample documents
+-r requirements.txt
+pytest>=8.0
+reportlab>=4.0

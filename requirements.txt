@@ -1,0 +1,15 @@
+# IntelliBot - runtime dependencies (Days 1-4)
+# More packages (RAGAS, ...) are added on the day they are
+# first used, so the install stays small and clean.
+# Version ranges are sensible bounds; they were not install-tested in the build
+# environment (it had no internet).
+streamlit>=1.35,<2
+python-dotenv>=1.0,<2
+pymupdf>=1.24,<2        # main PDF reader (as required by the brief)
+pypdf>=4.0,<7           # backup PDF reader if PyMuPDF cannot be installed
+sentence-transformers>=3.0,<7   # Day 2: local embeddings. Pulls in PyTorch (large download,
+                                # ~200 MB for CPU builds, more for GPU builds). The model
+                                # itself (~90 MB) downloads on first use.
+chromadb>=0.5,<2                # Day 3: persistent vector database (real ChromaDB)
+openai>=1.40,<3                 # Day 4: LLM client (OpenAI, and Hugging Face via its OpenAI-compatible
+                                # endpoint). Needed only for written answers; needs an API key.
