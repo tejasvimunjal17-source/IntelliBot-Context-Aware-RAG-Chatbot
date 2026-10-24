@@ -1,5 +1,7 @@
 # 🤖 IntelliBot — Context-Aware RAG Chatbot
 
+![Image Alt](https://github.com/tejasvimunjal17-source/LearnMate/blob/main/utils/file_000000008aec8208992ab6405c3dca7f.png)
+
 Code-A-Nova AI Internship · Month 1 project
 
 IntelliBot is a chatbot that answers questions **only from documents you upload**
