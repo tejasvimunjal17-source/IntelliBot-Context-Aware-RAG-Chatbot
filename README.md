@@ -11,6 +11,12 @@ IntelliBot is a chatbot that answers questions **only from documents you upload*
 
 ---
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+
+Live At : https://intellibot-context-aware-rag-chatbot.streamlit.app/ 
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+
 ## What IntelliBot does
 
 IntelliBot is a **Retrieval-Augmented Generation (RAG) chatbot**. You upload your own documents; it splits them into pieces, turns the pieces into
